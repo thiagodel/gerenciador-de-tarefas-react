@@ -1,0 +1,51 @@
+.pagina {
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    padding: 40px 20px;
+}
+
+.caixa {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.adicionar {
+    display: flex;
+    gap: 10px;
+}
+
+.adicionar input {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.filtros {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.tarefa {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.concluida {
+    text-decoration: line-through;
+    color: gray;
+}
